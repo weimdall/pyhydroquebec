@@ -79,18 +79,18 @@ With Docker
 
 ::
 
-    MQTT_USERNAME=mqtt_username MQTT_PASSWORD=mqtt_password MQTT_HOST=mqtt_ip MQTT_PORT=mqtt_port CONFIG=config.yaml PYHQ_OUTPUT=MQTT registry.gitlab.com/ttblt-hass/pyhydroquebec:master
+    MQTT_USERNAME=mqtt_username MQTT_PASSWORD=mqtt_password MQTT_HOST=mqtt_ip MQTT_PORT=mqtt_port CONFIG=config.yaml PYHQ_OUTPUT=MQTT weimdall/pyhydroquebec:master
 
 
 
 Docker
 ######
 
-Docker image list: https://gitlab.com/ttblt-hass/pyhydroquebec/container_registry
+Docker image list: https://hub.docker.com/repository/docker/weimdall/pyhydroquebec
 
 ::
 
-    docker run -e PYHQ_USER=*** -e PYHQ_PASSWORD=*** registry.gitlab.com/ttblt-hass/pyhydroquebec:master
+    docker run -e PYHQ_USER=*** -e PYHQ_PASSWORD=*** weimdall/pyhydroquebec:master
 
 Docker variables
 """""""""
